@@ -14,13 +14,6 @@ body {
   padding: 10px 20px;
 }
 
-.footer {
-  background-color: #283f25;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-}
-
 #imgLogo {
   width: 70px;
   height: auto;
@@ -46,6 +39,29 @@ body {
   display: block;
   margin: 0;
 }
+
+#footerContainer {
+  background-color: #283f25;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+#footerLinks {
+  padding-right: 10%;
+  padding-top: 30px;
+}
+
+#footerLinks p, #footerRechts p{
+  margin: 4px;
+  font-weight: normal;
+}
+
+#footerRechts h2 {
+  margin-bottom: 10px;
+  font-weight: normal;
+}
+
 
 /* 
 FFFFFF
