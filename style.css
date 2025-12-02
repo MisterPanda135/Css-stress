@@ -52,7 +52,8 @@ body {
   padding-top: 30px;
 }
 
-#footerLinks p, #footerRechts p{
+#footerLinks p,
+#footerRechts p {
   margin: 4px;
   font-weight: normal;
 }
@@ -62,6 +63,21 @@ body {
   font-weight: normal;
 }
 
+#pImgFlowers {
+  background-image: url("images/pexels-jmark-250716.jpg");
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  width: 100%;
+  height: 375px;
+}
+
+#pImgFlowers {
+  text-align: center;
+  line-height: 300px;
+  font-size: 24px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
 
 /* 
 FFFFFF
