@@ -79,6 +79,13 @@ body {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
+#zonnetje {
+  background-color: #3f593c;
+  text-align: center;
+  margin: 0;
+  padding: 15px;
+  font-size: 24px;
+}
 /* 
 FFFFFF
 3F593C
