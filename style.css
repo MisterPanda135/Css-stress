@@ -86,6 +86,56 @@ body {
   padding: 15px;
   font-size: 24px;
 }
+
+#aanbiedingenContainer {
+  display: grid;
+  grid-template-areas: 
+  '. aanbieding1 aanbieding2 aanbieding3 .'
+  '. aanbieding4 aanbieding5 aanbieding6 .';
+  background-color: gray;
+  padding: 50px;
+  gap: 35px;
+}
+
+#aanbiedingenContainer > div {
+  width: 220px;
+  height: 225px;
+}
+
+#aanbiedingenContainer > div p {
+  font-size: 20px;
+  padding: 16px;
+  background-color: green;
+}
+
+#aanbieding1 {
+  grid-area: aanbieding1;
+  background-image: url("images/pexels-jmark-250716.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#aanbieding2 {
+  grid-area: aanbieding2;
+}
+
+#aanbieding3 {
+  grid-area: aanbieding3;
+}
+
+#aanbieding4 {
+  grid-area: aanbieding4;
+}
+
+#aanbieding5 {
+  grid-area: aanbieding5;
+}
+
+#aanbieding6 {
+  grid-area: aanbieding6;
+}
 /* 
 FFFFFF
 3F593C
