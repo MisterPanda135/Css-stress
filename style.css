@@ -89,10 +89,10 @@ body {
 
 #aanbiedingenContainer {
   display: grid;
-  grid-template-areas: 
-  '. aanbieding1 aanbieding2 aanbieding3 .'
-  '. aanbieding4 aanbieding5 aanbieding6 .';
-  background-color: #F6F8E7;
+  grid-template-areas:
+    ". aanbieding1 aanbieding2 aanbieding3 ."
+    ". aanbieding4 aanbieding5 aanbieding6 .";
+  background-color: #f6f8e7;
   padding: 50px;
   gap: 35px;
 }
@@ -107,7 +107,7 @@ body {
 }
 
 #aanbiedingenContainer > div div {
-  background-color: #D9EDB5;
+  background-color: #d9edb5;
   position: relative;
   top: 5px;
   padding-inline: 25px;
@@ -175,6 +175,23 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
+
+#contact {
+  background-color: #d9edb5;
+  padding: 20px 0;
+}
+
+#contactOpnemen {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+}
+
+.contactBox {
+  background-color: #3f593c;
+  padding: 20px 0;
+}
+
 /* 
 FFFFFF
 3F593C
