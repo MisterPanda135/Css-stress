@@ -175,6 +175,18 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
+
+#introductionContainer {
+  background-color: #3F593C;
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+
+#introductionTitle {
+  text-align: left;
+}
+
 /* 
 FFFFFF
 3F593C
