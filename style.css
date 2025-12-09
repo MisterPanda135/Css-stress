@@ -98,7 +98,7 @@ body {
 }
 
 #aanbiedingenContainer > div {
-  width: 220px;
+  width: 275px;
   height: 225px;
   text-align: center;
   background-color: white;
@@ -110,10 +110,11 @@ body {
   background-color: #d9edb5;
   position: relative;
   top: 5px;
-  padding-inline: 25px;
+  padding-inline: 95px;
   font-size: 13px;
   color: black;
   font-weight: bold;
+  max-height: 80px;
 }
 
 #aanbieding1 {
@@ -175,23 +176,6 @@ body {
   justify-content: center;
   align-items: flex-end;
 }
-
-#contact {
-  background-color: #d9edb5;
-  padding: 20px 0;
-}
-
-#contactOpnemen {
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 24px;
-}
-
-.contactBox {
-  background-color: #3f593c;
-  padding: 20px 0;
-}
-
 /* 
 FFFFFF
 3F593C
