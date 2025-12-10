@@ -194,6 +194,17 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+#introductionContainer {
+  background-color: #3f593c;
+  display: flex;
+  justify-content: center;
+  padding: 200px;
+}
+
+#introductionTitle {
+  text-align: left;
+}
+
 /* 
 FFFFFF
 3F593C
