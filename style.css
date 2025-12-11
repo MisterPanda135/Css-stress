@@ -2,7 +2,7 @@ body {
   margin: 0;
   /* padding: 0; */
   color: #ffffff;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:sans-serif;
 }
 
 #divLogo {
@@ -76,7 +76,6 @@ body {
   text-align: center;
   line-height: 300px;
   font-size: 24px;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
 #zonnetje {
@@ -102,7 +101,7 @@ body {
   height: 225px;
   text-align: center;
   background-color: white;
-  border: 2px solid black;
+  box-shadow: (0, 0, 0, 0.5);
   border-radius: 20px;
 }
 
@@ -111,9 +110,8 @@ body {
   position: relative;
   top: 5px;
   padding-inline: 95px;
-  font-size: 13px;
+  font-size: 11px;
   color: black;
-  font-weight: bold;
   max-height: 80px;
 }
 
@@ -125,6 +123,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  flex-wrap: nowrap;
 }
 
 #aanbieding2 {
@@ -191,7 +190,6 @@ body {
 #contactOpnemen {
   text-align: center;
   font-size: 28px;
-  font-family: Arial, Helvetica, sans-serif;
 }
 
 #introductionContainer {
