@@ -2,7 +2,7 @@ body {
   margin: 0;
   /* padding: 0; */
   color: #ffffff;
-  font-family:sans-serif;
+  font-family: sans-serif;
 }
 
 #divLogo {
@@ -184,7 +184,16 @@ body {
 .contactBox {
   background-color: #3f593c;
   margin: 0px;
-  padding: 10px;
+  padding: 5px;
+}
+
+#contactFormulier {
+  display: flex;
+  background-color: #3f593c;
+  margin: 0;
+  padding: 0 100px;
+  gap: 100px;
+  font-size: 14px;
 }
 
 #contactOpnemen {
@@ -203,19 +212,17 @@ body {
   text-align: left;
 }
 
-#assortimentContainer{
+#assortimentContainer {
   max-width: 1000px;
   margin: 40px auto;
   padding: 10px;
 }
-
 
 #producten {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px;
 }
-
 
 .product {
   background-color: #d9edb5;
@@ -224,7 +231,6 @@ body {
   overflow: hidden;
 }
 
-
 .product img {
   width: 100%;
   height: 180px;
@@ -232,12 +238,10 @@ body {
   display: block;
 }
 
-
 .product p {
   padding: 8px;
   font-size: 30px;
 }
-
 
 .product-large {
   grid-column: 1 / span 2;
