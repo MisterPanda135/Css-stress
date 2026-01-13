@@ -138,11 +138,16 @@ body {
   background-color: #3f593c;
   display: flex;
   justify-content: center;
-  padding: 200px;
 }
 
 #introductionTitle {
-  text-align: left;
+  margin: 200px 150px 20px;
+}
+
+#introductionImg {
+  max-height: 400px;
+  border-radius: 12px;
+  margin: 50px 10px 50px;
 }
 
 #assortimentContainer {
