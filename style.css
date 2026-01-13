@@ -86,94 +86,24 @@ body {
   font-size: 24px;
 }
 
-#aanbiedingenContainer {
-  display: grid;
-  grid-template-areas:
-    ". aanbieding1 aanbieding2 aanbieding3 ."
-    ". aanbieding4 aanbieding5 aanbieding6 .";
-  background-color: #f6f8e7;
-  padding: 50px;
-  gap: 35px;
+#aanbiedingen-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+    gap: 40px;
+    margin: 10px 20px 10px;
 }
 
-#aanbiedingenContainer > div {
-  width: 275px;
-  height: 225px;
+.aanbiedingen {
+  background: rgb(137, 217, 241);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
   text-align: center;
-  background-color: white;
-  box-shadow: (0, 0, 0, 0.5);
-  border-radius: 20px;
 }
-
-#aanbiedingenContainer > div div {
-  background-color: #d9edb5;
-  position: relative;
-  top: 5px;
-  padding-inline: 95px;
-  font-size: 11px;
-  color: black;
-  max-height: 80px;
-}
-
-#aanbieding1 {
-  grid-area: aanbieding1;
-  background-image: url("images/pexels-pixabay-54267.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-  flex-wrap: nowrap;
-}
-
-#aanbieding2 {
-  grid-area: aanbieding2;
-  background-image: url("images/pexels-valeriya-1961778.jpg");
-  background-size: cover;
-  background-position: left;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-#aanbieding3 {
-  grid-area: aanbieding3;
-  background-image: url("images/pexels-scottwebb-403571.jpg");
-  background-size: cover;
-  background-position: right;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-#aanbieding4 {
-  grid-area: aanbieding4;
-  background-image: url("images/pexels-nextvoyage-457937.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-#aanbieding5 {
-  grid-area: aanbieding5;
-  background-image: url("images/pexels-mikebirdy-109828.jpg");
-  background-size: cover;
-  background-position: left;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-#aanbieding6 {
-  grid-area: aanbieding6;
-  background-image: url("images/pexels-maureen-piecesphotography-1207978.jpg");
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  justify-content: center;
-  align-items: flex-end;
+.aanbiedingen img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 #contact {
