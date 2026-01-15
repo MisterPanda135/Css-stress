@@ -140,20 +140,27 @@ body {
   justify-content: center;
 }
 
-#introductionTitle {
-  margin: 200px 150px 20px;
+#introductionContainer h1 {
+  font-size: 30px;
+  margin-left: 160px;
+  font-weight: normal;
+}
+
+#introductionContainer p {
+  text-align: center;
 }
 
 #introductionImg {
-  max-height: 400px;
+  max-height: 380px;
   border-radius: 12px;
-  margin: 50px 10px 50px;
+  margin: 50px 140px 50px 180px;
 }
 
 #assortimentContainer {
   max-width: 1000px;
   margin: 40px auto;
   padding: 10px;
+  color: rgb(0, 0, 0);
 }
 
 #producten {
