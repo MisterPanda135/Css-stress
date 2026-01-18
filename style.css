@@ -109,31 +109,6 @@ body {
   max-height: 155px;
 }
 
-#contact {
-  background-color: #d9edb5;
-  padding: 30px 0px;
-}
-
-.contactBox {
-  background-color: #3f593c;
-  margin: 0px;
-  padding: 5px;
-}
-
-#contactFormulier {
-  display: flex;
-  background-color: #3f593c;
-  margin: 0;
-  padding: 0 100px;
-  gap: 100px;
-  font-size: 14px;
-}
-
-#contactOpnemen {
-  text-align: center;
-  font-size: 28px;
-}
-
 #introductionContainer {
   background-color: #3f593c;
   display: flex;
@@ -195,6 +170,66 @@ body {
 .product-large img {
   height: 420px;
 }
+
+#contact {
+  background-color: #d9edb5;
+  padding: 30px 0px;
+}
+
+.contactBox {
+  background-color: #3f593c;
+  margin: 0px;
+  padding: 5px;
+}
+
+#contactFormulier {
+  display: flex;
+  background-color: #3f593c;
+  margin: 0;
+  padding: 0 100px;
+  gap: 100px;
+  font-size: 14px;
+}
+
+#contactOpnemen {
+  text-align: center;
+  font-size: 28px;
+}
+
+#vragenEnOpmerkingen {
+  resize: none;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #f7feea;
+}
+
+#contactInformatie {
+  display: flex;
+  gap: 280px;
+  margin-top: 10px;
+}
+
+#contactGegevens {
+  display: flex;
+  gap: 10px;
+  margin-left: 120px;
+}
+
+#email {
+  background-color: #f7feea;
+  border-radius: 8px;
+  padding: 7px;
+  width: 315px;
+}
+
+#contactButton {
+  background-color: #d9edb5;
+  border-radius: 15px;
+  margin: 10px 0 0 30px;
+  padding: 7px;
+  width: 280px;
+}
+
 /* 
 FFFFFF
 3F593C
